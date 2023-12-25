@@ -12,8 +12,8 @@ const Header = () => {
 
     return (
         <>
-            <div className="flex items-center justify-center">
-                <img src="/src/images/logo.png" className="w-14 h-14 m-5"/>
+<div className="flex items-center justify-center">
+    <img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/441dogface_100527.png" className="w-14 h-14 m-5"/>
 
                 <a>
                     <h1 className="font-black text-5xl text-center" href="">Veterinaria <span className="text-indigo-600">Mariana</span></h1>
@@ -21,7 +21,7 @@ const Header = () => {
             </div>
             
             <div className="flex justify-end w-10 h-10">
-                <img id="warnImg" src="./src/images/warn.svg" onClick={() => handleClickWarn()}/>
+                <img id="warnImg" src="./src/images/warning.svg" onClick={() => handleClickWarn()}/>
             </div>
         </>
     );
