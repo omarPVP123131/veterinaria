@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <>
             <div className="flex items-center justify-center">
-                <img src="./src/images/logo.png" className="w-14 h-14 m-5"/>
+                <img src="/src/images/logo.png" className="w-14 h-14 m-5"/>
 
                 <a target="_blank" rel="noopener" href="https://axeltristan.com/">
                     <h1 className="font-black text-5xl text-center" href="">Veterinaria <span className="text-indigo-600">Mariana</span></h1>
