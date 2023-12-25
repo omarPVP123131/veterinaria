@@ -21,7 +21,7 @@ const Header = () => {
             </div>
             
             <div className="flex justify-end w-10 h-10">
-                <img id="warnImg" src="./src/images/warning.svg" onClick={() => handleClickWarn()}/>
+                <img id="warnImg" src="https://www.freeiconspng.com/uploads/orange-warning-icon-3.png" onClick={() => handleClickWarn()}/>
             </div>
         </>
     );
